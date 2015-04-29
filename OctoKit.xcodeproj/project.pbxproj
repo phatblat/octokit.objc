@@ -701,6 +701,7 @@
 		F6CF78D216E993A500A75F63 /* RACSignal+OCTClientAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RACSignal+OCTClientAdditions.h"; sourceTree = "<group>"; };
 		F6CF78D316E993A500A75F63 /* RACSignal+OCTClientAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RACSignal+OCTClientAdditions.m"; sourceTree = "<group>"; };
 		F6E2EC3F16EB04C50096C268 /* RACSignalAdditionsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSignalAdditionsSpec.m; sourceTree = "<group>"; };
+		F847FE2E1AF1777100EDD417 /* OctoKit.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = OctoKit.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -936,6 +937,7 @@
 			isa = PBXGroup;
 			children = (
 				D087229E169E3D6000016ACA /* OctoKit.h */,
+				F847FE2E1AF1777100EDD417 /* OctoKit.modulemap */,
 				D0872125169E394F00016ACA /* Classes */,
 				D08B59C8169E3F7F006003B8 /* Extensions */,
 				D0871EB2169E2EFC00016ACA /* Supporting Files */,
@@ -1915,6 +1917,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
+				MODULEMAP_FILE = OctoKit/OctoKit.modulemap;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Test;
@@ -1948,6 +1951,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				MODULEMAP_FILE = OctoKit/OctoKit.modulemap;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1961,6 +1965,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				MODULEMAP_FILE = OctoKit/OctoKit.modulemap;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1974,6 +1979,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				MODULEMAP_FILE = OctoKit/OctoKit.modulemap;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1987,6 +1993,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				MODULEMAP_FILE = OctoKit/OctoKit.modulemap;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2104,6 +2111,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
+				MODULEMAP_FILE = OctoKit/OctoKit.modulemap;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -2115,6 +2123,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
+				MODULEMAP_FILE = OctoKit/OctoKit.modulemap;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
@@ -2180,6 +2189,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
+				MODULEMAP_FILE = OctoKit/OctoKit.modulemap;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Profile;
